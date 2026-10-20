@@ -1,3 +1,12 @@
+# All data get ignored except for explicitly included files
+# which are the anonymized and dummy versions of the files
+res/data/*
+
+# In the Tab-PFN model, we do not need the model itself, you can download
+# that from HuggingFace. So all checkpoint files are ignored (there's should
+# be only one)
+*.ckpt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,0 +1,11 @@
+Feature,Importance (SHAP),Direction
+bmi,13.8325615,1
+exercise_hrs_wk,8.017784,-1
+sugar_g,7.733292,1
+age,4.808058,1
+fiber_g,4.3648577,-1
+calories_kcal,0.23325548,1
+fat_g,0.21177529,-1
+protein_g,0.18432587,0
+water_l,0.15285611,1
+carbs_g,0.1317504,1
